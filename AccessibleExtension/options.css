@@ -1,5 +1,5 @@
 #test-button{
-  height: 10em;
+  height: 2em;
   width: 15em;
 }
 
@@ -20,9 +20,31 @@
 
 .checkbox-line{
   display: inherit;
-  text-align: center;
+  align-items:center;
 }
 
 input[type="checkbox"]{
+  height: 2em;
+  width: 2em;
+  appearance:none;
+  -webkit-appearance: none;
+  /*border: 1px solid #34495E;*/
+  border-radius: .6em;
+  outline:none;
+  /*outline:gray outset .3em;
+  transition-duration: 0.3s;*/
+  background-color: hsl(180, 48%, 49%);
+  cursor:pointer;
   vertical-align: middle;
+  content:close-quote;
 }
+
+input[type="checkbox"]:hover{
+  background-color: hsl(180, 45%, 35%);
+}
+
+input[type="checkbox"]:checked{
+  background-color: hsl(180, 16%, 25%);
+  content:"/2713";
+}
+
