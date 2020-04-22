@@ -1,0 +1,28 @@
+#test-button{
+  height: 10em;
+  width: 15em;
+}
+
+#popup-header{
+  font-family: Georgia,"Times New Roman",serif;
+}
+
+#main-box{
+  height:20em;
+  width:25em;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+
+}
+
+.checkbox-line{
+  display: inherit;
+  text-align: center;
+}
+
+input[type="checkbox"]{
+  vertical-align: middle;
+}
