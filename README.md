@@ -1,2 +1,2 @@
 # More Accessible Webpages
-An extension for Chrome that will change webpages to be more accessable for people with disabilities.
+An extension for Chrome that will change webpages to be more accessible for people with disabilities.
