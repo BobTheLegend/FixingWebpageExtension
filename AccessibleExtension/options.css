@@ -1,10 +1,12 @@
-#test-button{
-  height: 2em;
-  width: 15em;
+
+body{
+  background-color:dimgrey;
+  border-color:aqua;
 }
 
 #popup-header{
-  font-family: Georgia,"Times New Roman",serif;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  color:aliceblue;
 }
 
 #main-box{
@@ -14,7 +16,8 @@
   flex-direction: column;
 }
 
-.container{
+.chooser-container{
+  display:inherit;
 
 }
 
@@ -23,12 +26,18 @@
   align-items:center;
   cursor:pointer;
 }
-.stylized-checkbox::before{
+
+.checkbox-label{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  color: aliceblue;
+}
+
+.checkbox-label::before{
   position:absolute;
   font-weight:1000;
-  font-size:1.25em;
-  left:0.95em;
-  
+  font-size:2em;
+  left:4.75%;
+  color:black;
 }
 
 input[type="checkbox"]{
@@ -36,15 +45,13 @@ input[type="checkbox"]{
   width: 2em;
   appearance:none;
   -webkit-appearance: none;
-  /*border: 1px solid #34495E;*/
   border-radius: .6em;
   outline:none;
-  /*outline:gray outset .3em;
-  transition-duration: 0.3s;*/
   background-color: hsl(180, 48%, 49%);
   vertical-align: middle;
   content:close-quote;
-  
+  transition-duration: 30sec;
+
 }
 
 input[type="checkbox"]:hover{
@@ -61,4 +68,3 @@ input[type="checkbox"]:checked{
   position: absolute;
 
 }
-
