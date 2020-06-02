@@ -18,8 +18,13 @@
       "matches":[
         "<all_urls>"
       ],
-      "js":["actions.js","jquery-3.5.0.min.js"]
+      "js":["jquery-3.5.0.min.js","popup.js"]
     }
-  ]
+  ],
+
+  "background":{
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 
 }
